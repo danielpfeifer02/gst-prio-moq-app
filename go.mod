@@ -1,13 +1,13 @@
-module github.com/mengelbart/gst-moq-app
+module github.com/danielpfeifer02/gst-prio-moq-app
 
 go 1.21.1
 
 require (
+	github.com/danielpfeifer02/priority-moqtransport v0.1.1-3
 	github.com/mengelbart/gst-go v0.0.4
-	github.com/mengelbart/moqtransport v0.1.1-0.20231007110949-d6b0470c8219
 )
 
-replace github.com/mengelbart/moqtransport v0.1.1-0.20231007110949-d6b0470c8219 => ./priority-moqtransport
+// replace github.com/mengelbart/moqtransport v0.1.1-0.20231007110949-d6b0470c8219 => ./priority-moqtransport
 
 require (
 	github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-26 // indirect

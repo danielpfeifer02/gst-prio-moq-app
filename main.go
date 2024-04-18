@@ -14,8 +14,8 @@ import (
 	"os"
 	"time"
 
+	moqtransport "github.com/danielpfeifer02/priority-moqtransport"
 	"github.com/mengelbart/gst-go"
-	"github.com/mengelbart/moqtransport"
 )
 
 func main() {
