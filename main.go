@@ -25,6 +25,8 @@ func main() {
 	gst.GstInit()
 	defer gst.GstDeinit()
 
+	// crypto_turnoff.CRYPTO_TURNED_OFF = true
+
 	if *isServer {
 		if err := server(); err != nil {
 			log.Fatal(err)
