@@ -1,7 +1,7 @@
-github.com/danielpfeifer02/priority-moqtransport v0.1.1-5 h1:3aFZG2ju7neu6y/YRXIhwiWF1BQHowGSsrNWUjeAhw8=
-github.com/danielpfeifer02/priority-moqtransport v0.1.1-5/go.mod h1:Une1vGrZruRBRNs4Gj2dAyGFczdyDwdGLr6bRlI2To0=
-github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-27 h1:scbmuSGkWdr6g4yNWQsStBc5iy5hIZAY5soY+RJJzCE=
-github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-27/go.mod h1:4eD0YEALiVWTevcMJc9TCsf+RE+n4PLewZ3IR9uuUjg=
+github.com/danielpfeifer02/priority-moqtransport v0.1.1-6 h1:CONnxFP7oQK1AkLEl+fcBtyze/CMsUGjNv7y8lT2CpA=
+github.com/danielpfeifer02/priority-moqtransport v0.1.1-6/go.mod h1:Une1vGrZruRBRNs4Gj2dAyGFczdyDwdGLr6bRlI2To0=
+github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-28 h1:1kueauBSnuCa37wSk9CedZi8v0v0h9HYzfLgE6F4+Xk=
+github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-28/go.mod h1:4eD0YEALiVWTevcMJc9TCsf+RE+n4PLewZ3IR9uuUjg=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
