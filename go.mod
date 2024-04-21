@@ -3,16 +3,16 @@ module github.com/danielpfeifer02/gst-prio-moq-app
 go 1.21.1
 
 require (
-	github.com/danielpfeifer02/priority-moqtransport v0.1.1-3
+	github.com/danielpfeifer02/priority-moqtransport v0.1.1-5
 	github.com/mengelbart/gst-go v0.0.4
 )
 
-// replace github.com/danielpfeifer02/priority-moqtransport v0.1.1-3 => ./priority-moqtransport
+// replace github.com/danielpfeifer02/priority-moqtransport v0.1.1-5 => ./priority-moqtransport
 
-// replace github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-26 => ../quic-go-prio-packs
+// replace github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-27 => ../quic-go-prio-packs
 
 require (
-	github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-26 // indirect
+	github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-27 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/google/pprof v0.0.0-20230821062121-407c9e7a662f // indirect
 	github.com/onsi/ginkgo/v2 v2.12.0 // indirect
