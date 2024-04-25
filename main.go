@@ -11,6 +11,7 @@ import (
 	"flag"
 	"log"
 	"math/big"
+	"os"
 
 	"github.com/mengelbart/gst-go"
 	"github.com/mengelbart/moqtransport"
@@ -223,9 +224,16 @@ func generateTLSConfig() *tls.Config {
 	if err != nil {
 		panic(err)
 	}
+
+	keyLogFile, err := os.OpenFile("tls.keylog", os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0600)
+	if err != nil {
+		panic(err)
+	}
+
 	return &tls.Config{
 		Certificates: []tls.Certificate{tlsCert},
 		NextProtos:   []string{"moq-00"},
+		KeyLogWriter: keyLogFile,
 	}
 }
 
