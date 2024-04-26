@@ -3,15 +3,19 @@ module github.com/mengelbart/gst-moq-app
 go 1.22.0
 
 require (
+	github.com/danielpfeifer02/priority-moqtransport v0.1.1-6
+	github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-28
 	github.com/mengelbart/gst-go v0.0.4
-	github.com/mengelbart/moqtransport v0.2.1-0.20240322045055-ce1bfe1c4ce9
 )
+
+replace github.com/danielpfeifer02/priority-moqtransport v0.1.1-6 => ./priority-moqtransport
+
+replace github.com/danielpfeifer02/quic-go-prio-packs v0.41.0-28 => ../quic-go-prio-packs
 
 require (
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/google/pprof v0.0.0-20230821062121-407c9e7a662f // indirect
 	github.com/onsi/ginkgo/v2 v2.12.0 // indirect
-	github.com/quic-go/quic-go v0.41.0 // indirect
 	go.uber.org/mock v0.3.0 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63 // indirect

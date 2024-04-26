@@ -15,10 +15,10 @@ import (
 
 	// TODO: replace with my own import path
 
+	moqtransport "github.com/danielpfeifer02/priority-moqtransport"
+	"github.com/danielpfeifer02/priority-moqtransport/quicmoq"
+	"github.com/danielpfeifer02/quic-go-prio-packs"
 	"github.com/mengelbart/gst-go"
-	"github.com/mengelbart/moqtransport"
-	"github.com/mengelbart/moqtransport/quicmoq"
-	"github.com/quic-go/quic-go"
 )
 
 func main() {
