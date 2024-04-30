@@ -13,8 +13,6 @@ import (
 	"math/big"
 	"os"
 
-	// TODO: replace with my own import path
-
 	moqtransport "github.com/danielpfeifer02/priority-moqtransport"
 	"github.com/danielpfeifer02/priority-moqtransport/quicmoq"
 	"github.com/danielpfeifer02/quic-go-prio-packs"
